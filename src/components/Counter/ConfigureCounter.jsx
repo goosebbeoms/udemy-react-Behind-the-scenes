@@ -1,8 +1,8 @@
-import { useState } from "react";
-import { log } from "../../log";
+import { useState } from 'react';
+import { log } from '../../log';
 
 const ConfigureCounter = ({ onSet }) => {
-log('<ConfigureCounter />', 1)
+  log('<ConfigureCounter />', 1);
 
   const [enteredNumber, setEnteredNumber] = useState(0);
 
